@@ -4,12 +4,15 @@ exports.decorateConfig = (config) => {
   return Object.assign(config, {
     cursorColor: 'rgba(255, 255, 255, 0.5)',
     selectionColor: 'rgba(255, 128, 128, 0.4)',
-    backgroundColor: 'rgba(0, 0, 0, 0)',
+    backgroundColor: 'transparent',
     borderColor: 'rgba(128, 128, 128, 0.4)',
     css: `
       ${config.css || ''}
-      div.term_fit {
-        padding: 5px !important;
+      .hyper_main {
+        border: none !important;
+      }
+      .term_active {
+        padding: 12px !important;
       }
     `
   })
