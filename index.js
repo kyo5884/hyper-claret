@@ -5,6 +5,9 @@ exports.decorateConfig = (config) => {
     backgroundColor: 'rgba(0, 0, 0, 0)',
     css: `
       ${config.css || ''}
+      div.term_fit {
+        padding: 5px !important;
+      }
     `
   })
 }
