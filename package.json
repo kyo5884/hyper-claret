@@ -1,0 +1,9 @@
+{
+  "name": "hyper-claret",
+  "version": "1.0.0",
+  "description": "hyper.js dark-red theme",
+  "main": "index.js",
+  "scripts": {},
+  "author": "kyo5884",
+  "license": "ISC"
+}
